@@ -1,0 +1,17 @@
+# baseURL = 'https://serabikocorbuyuni.my.id/'
+languageCode = 'en-us'
+title = 'Tribute Linus torvald'
+icon = "/favicon.ico"
+
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = true
+canonifyURLs = true
+
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = [":git", "lastmod", "date", "publishDate"]
+publishDate = ["publishDate", "date"]
+expiryDate = ["expiryDate"]
+
+copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
